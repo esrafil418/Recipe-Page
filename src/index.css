@@ -1,0 +1,7 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+@theme {
+    --font-outfit: "Outfit", sans-serif;
+    --font-youngSerif: "YoungSerif", sans-serif
+}
