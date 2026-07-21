@@ -1,4 +1,5 @@
 import { Dot } from "lucide-react";
+import picture from "./assets/images/image-omelette.jpeg";
 
 const preparation = [
   { title: "Total", value: "Approximately 10 minutes" },
@@ -53,7 +54,7 @@ export default function App() {
     <main className="min-h-screen bg-[#f3e5d8] flex items-center justify-center p-0 sm:p-8 font-outfit">
       <article className="w-full max-w-184 bg-white sm:rounded-3xl p-0 sm:p-10">
         <img
-          src="src/assets/images/image-omelette.jpeg"
+          src={picture}
           alt="Simple Omelette"
           className="w-full sm:rounded-xl"
         />

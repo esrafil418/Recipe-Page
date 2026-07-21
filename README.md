@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [frontendmentor.io](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3d02/start)
-- Live Site URL: [recipe-page]()
+- Live Site URL: [recipe-page](https://recipe-page-challenge.surge.sh/)
 
 ## ✨ Features
 
