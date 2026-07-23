@@ -34,3 +34,17 @@ Users should be able to:
 - **Tailwind CSS** - Utility-first CSS framework
 - **Lucide React** - Icon library for bullet points
 - **Vite** - Build tool and development server
+
+## 📚 What I learned
+
+While building this project, I practiced several useful React and Tailwind CSS techniques:
+
+- Used `min-h-screen` on the `<main>` element to ensure the page fills the entire viewport height.
+- Created a responsive card layout with `w-full max-w-184 bg-white sm:rounded-3xl p-0 sm:p-10`.
+- Made the recipe image responsive using `w-full sm:rounded-xl`.
+- Applied responsive spacing with `p-8 sm:p-0 sm:pt-10` to improve the layout across different screen sizes.
+- Improved text readability by using `leading-7` for the recipe description.
+- Added consistent spacing between list items with `space-y-3`.
+- Used `shrink-0` on the `Dot` icon from `lucide-react` to prevent it from shrinking when the text wraps.
+- Stored all recipe data (ingredients, instructions, nutrition, and preparation time) in separate arrays and rendered them dynamically using React's `.map()` method instead of hardcoding the content.
+- Practiced building reusable UI by separating the data from the presentation, making the component easier to maintain and update.
